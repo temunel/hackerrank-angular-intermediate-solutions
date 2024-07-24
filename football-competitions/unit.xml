@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 116.0.5845 (Windows 10.0.0)" package="unit" timestamp="2023-09-04T11:58:36" id="0" hostname="INNMIADRCM204" tests="4" errors="0" failures="3" time="0.049">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/116.0.5845.141 Safari/537.36"/>
+  </properties>
+  <testcase name="FootballCompetitions Should show correct results when page 2 is clicked" time="0.032" classname=".FootballCompetitions">
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Chelsea in year 2011' to equal 'Competition English Premier League won by Chelsea in year 2016'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:245:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Bayern Munich in year 2012' to equal 'Competition La Liga won by Real Madrid in year 2011'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:246:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Real Madrid in year 2013' to equal 'Competition La Liga won by FC Barcelona in year 2012'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:247:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Barcelona in year 2014' to equal 'Competition La Liga won by Atletico Madrid in year 2013'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:248:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Real Madrid in year 2015' to equal 'Competition La Liga won by FC Barcelona in year 2014'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:249:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Manchester City in year 2011' to equal 'Competition La Liga won by FC Barcelona in year 2015'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:250:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Manchester United in year 2012' to equal 'Competition La Liga won by Real Madrid in year 2016'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:251:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Manchester City in year 2013' to equal 'Competition League 1 won by Montpellier HSC in year 2011'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:252:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Chelsea in year 2014' to equal 'Competition League 1 won by Paris Saint-Germain in year 2012'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:253:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Leicester City in year 2015' to equal 'Competition League 1 won by Paris Saint-Germain in year 2013'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:254:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <testcase name="FootballCompetitions Should show correct results when page 3 is clicked" time="0.008" classname=".FootballCompetitions">
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Chelsea in year 2011' to equal 'Competition League 1 won by Paris Saint-Germain in year 2014'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:354:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Bayern Munich in year 2012' to equal 'Competition League 1 won by Paris Saint-Germain in year 2015'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:355:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Real Madrid in year 2013' to equal 'Competition League 1 won by AS Monaco in year 2016'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:356:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Barcelona in year 2014' to equal 'Competition Serie A won by Juventus in year 2011'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:357:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Real Madrid in year 2015' to equal 'Competition Serie A won by Juventus in year 2012'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:358:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Manchester City in year 2011' to equal 'Competition Serie A won by Juventus in year 2013'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:359:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Manchester United in year 2012' to equal 'Competition Serie A won by Juventus in year 2014'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:360:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Manchester City in year 2013' to equal 'Competition Serie A won by Juventus in year 2015'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:361:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Chelsea in year 2014' to equal 'Competition Serie A won by Juventus in year 2016'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:362:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition English Premier League won by Leicester City in year 2015' to equal 'Competition Bundesliga won by Borussia Dortmund in year 2011'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:363:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <testcase name="FootballCompetitions Should render the Initial UI as expected" time="0.004" classname=".FootballCompetitions"/>
+  <testcase name="FootballCompetitions Should show correct results when page 4 is clicked" time="0.005" classname=".FootballCompetitions">
+    <failure type="">Error: Expected 10 to equal 5.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:428:42
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Chelsea in year 2011' to equal 'Competition Bundesliga won by Bayern Munchen in year 2012'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:429:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Bayern Munich in year 2012' to equal 'Competition Bundesliga won by Bayern Munchen in year 2013'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:430:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Real Madrid in year 2013' to equal 'Competition Bundesliga won by Bayern Munchen in year 2014'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:431:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Barcelona in year 2014' to equal 'Competition Bundesliga won by Bayern Munchen in year 2015'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:432:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Competition UEFA Champions League won by Real Madrid in year 2015' to equal 'Competition Bundesliga won by Bayern Munchen in year 2016'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/footballCompetitions/footballCompetitions.component.spec.ts:433:55
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

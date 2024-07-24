@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2023-10-24T08:52:50" id="0" hostname="d8ea28e3f92e" tests="8" errors="0" failures="0" time="0.357">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent Clicking on &quot;Development&quot; category filter works" time="0.098" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on &quot;Completed&quot; status filter works" time="0.043" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on &quot;Active&quot; status filter works" time="0.035" classname=".AppComponent"/>
+  <testcase name="AppComponent Initial UI is rendered as expected" time="0.023" classname=".AppComponent"/>
+  <testcase name="AppComponent Combination of filters works" time="0.06" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on a category twice render the entire list" time="0.043" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on &quot;Hardware&quot; category filter works" time="0.027" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on &quot;Workplace&quot; category filter works" time="0.028" classname=".AppComponent"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', true
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'Development'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'status'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'Completed'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'status'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'Active'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'status'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'Active'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', true
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'Active'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'Hardware'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', []
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', true
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'Active'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'Workplace'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', true
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'Active'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'Development'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'status'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'Completed'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'Development'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', []
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', true
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'Completed'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'Hardware'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', false
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'Completed'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'status'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', true
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'Hardware'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', false
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', true
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'Hardware'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}, Object{title: 'Developer Survey', category: 'Development', status: 'Active', label: 'Education'}, Object{title: 'Backend Survey', category: 'Hardware', status: 'Completed', label: 'Personal'}]
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'type:', 'category'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'isSelected:', true
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'status:', 'All'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'category:', 'Workplace'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'filtered:', [Object{title: 'Designer Survey', category: 'Workplace', status: 'Active', label: 'New Framework'}]
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

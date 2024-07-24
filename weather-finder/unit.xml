@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 96.0.4664 (Windows 10.0.0)" package="unit" timestamp="2021-12-08T17:35:35" id="0" hostname="mayankmishra" tests="5" errors="0" failures="0" time="0.633">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/96.0.4664.45 Safari/537.36"/>
+  </properties>
+  <testcase name="WeatherFinder Should search and render the data - 2" time="0.267" classname=".WeatherFinder"/>
+  <testcase name="WeatherFinder Should render the Initial UI correctly" time="0.124" classname=".WeatherFinder"/>
+  <testcase name="WeatherFinder Should search and render the data - 1" time="0.1" classname=".WeatherFinder"/>
+  <testcase name="WeatherFinder Should show No Results Found when there are no results from API" time="0.084" classname=".WeatherFinder"/>
+  <testcase name="WeatherFinder Perform series of actions" time="0.058" classname=".WeatherFinder"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

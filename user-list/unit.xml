@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2023-10-24T07:41:48" id="0" hostname="d8ea28e3f92e" tests="6" errors="0" failures="0" time="0.386">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent Clicking on type Book and Add button should add the item to the Book list" time="0.187" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on type Song and Add button should add the item to the Song list" time="0.05" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on type Song and Add button should clear the input fields" time="0.039" classname=".AppComponent"/>
+  <testcase name="AppComponent Perform a series of operations including delete" time="0.051" classname=".AppComponent"/>
+  <testcase name="AppComponent Initial UI is rendered as expected" time="0.024" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on Song type should render time input" time="0.035" classname=".AppComponent"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: Object{name: 'Rock On', genre: 'Rock', creator: 'Jay', type: 'Song', totalTime: 10}
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: Object{name: 'Belief', genre: 'Fiction', creator: 'John M', type: 'Book'}
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'data ==> ', 'Song'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
